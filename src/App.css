@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+  border: 2px solid black;
+  padding: 5px;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  margin: 5px;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: row;
+  min-height: 70vh;
+}
+
+.content {
+  border: 2px solid black;
+  margin: 5px;
+  padding: 2px;
+  width: 100%;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  border: 2px solid black;
+  margin: 5px;
+  padding: 2px;
+  min-width: 20%;
+}
+
+label {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.personalDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.professionalDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.declaration {
+  border: 2px solid black;
+  margin: 5px;
+  padding: 2px;
+}
